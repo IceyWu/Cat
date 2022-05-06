@@ -1,16 +1,45 @@
-# Vue 3 + TypeScript + Vite
+<div align="center">
+    <img width="200px" height="200px" src="https://suqiqi.oss-cn-beijing.aliyuncs.com/data/Logo/猫.png" />
+    <h1>vue-cat</h1>
+    <p>vite + vue3 + ts+unocss 开箱即用现代开发模板</p>
+    <p align="center"><a href="https://vue-cat.netlify.app/">Live Demo</a></p>
+</div>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<br />
+<br />
 
-## Recommended IDE Setup
+## 特点 🐳
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+1. Vite 的
+2. Vue3 的
+3. 文件路由
+4. 布局系统
+5. Mock 支持
+6. Api 自动引入
+7. 组件自动引入
+8. 图标自动引入
+9. VueUse 支持
+10. TypeScript 的
+11. Windi CSS 的
+12. 暗黑模式支持
+13. SWR 请求支持
+14. pinia 状态管理
+15. pnpm 包管理器
+16. 跳转进度条支持
+17. Inspect 调试支持
+18. 插件自动加载支持
+19. Vitest 单元测试支持
+20. 支持 Markdown 渲染
+21. 路径别名 `~` 支持
+22. 命令行自动创建与删除
+23. i18n 国际化支持
+24. 漂亮的 404 页 支持
+25. tsx 支持
+26. gzip 资源压缩支持
+27. 环境变量配置支持
+28. 统一的代码规范与风格支持
 
-## Type Support For `.vue` Imports in TS
+<br />
+<br />
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).

@@ -1,6 +1,6 @@
 <template>
   <div>
-    index
+    Hello Cat
     <button btn>1</button>
   </div>
 </template>
